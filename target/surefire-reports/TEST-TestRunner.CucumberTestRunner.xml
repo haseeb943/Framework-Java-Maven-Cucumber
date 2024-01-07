@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="1" name="TestRunner.CucumberTestRunner" time="86.226" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.20+9-LTS-256"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Eclipse\framework\java_framwork"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="TestRunner.CucumberTestRunner"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Eclipse\framework\java_framwork"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.20+9-LTS-256"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MUHAMM~1.HAS\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Android\Android Studio\bin;C:\Users\muhammad.haseeb\AppData\Local\Android\Sdk\platform-tools;C:\Users\muhammad.haseeb\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\chromedriver-win64;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files (x86)\Java\jre1.8.0_281\bin;C:\Program Files (x86)\Java\jre1.8.0_281\lib;C:\Users\muhammad.haseeb\AppData\Local\Microsoft\WindowsApps;C:\Users\muhammad.haseeb\.dotnet\tools;C:\Users\muhammad.haseeb\AppData\Roaming\npm;C:\Users\muhammad.haseeb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Nmap;."/>
+    <property name="maven.conf" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\muhammad.haseeb"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="muhammad.haseeb"/>
+    <property name="java.class.path" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dtest=TestRunner.CucumberTestRunner"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.20"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="maven.home" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TestRunner.CucumberTestRunner" name="runScenario" time="5.138"/>
+  <testcase classname="TestRunner.CucumberTestRunner" name="runScenario" time="2.776"/>
+  <testcase classname="TestRunner.CucumberTestRunner" name="runScenario" time="3.051">
+    <failure message="User should not be navigated to the Home Page expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: User should not be navigated to the Home Page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at StepDefinitions.LoginPOM_StepsDefinition.user_should_be(LoginPOM_StepsDefinition.java:79)
+	at ✽.User should be &quot;not_navigated&quot;(file:///D:/Eclipse/framework/java_framwork/src/test/resources/Features/sauceDemoProducts.feature:19)
+</failure>
+    <system-out>
+Scenario Outline: Check login is unsuccessful with valid credentials &amp;#27;[90m# src/test/resources/Features/sauceDemoProducts.feature:24&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser is on login page&amp;#27;[0m                                        &amp;#27;[90m# StepDefinitions.LoginPOM_StepsDefinition.user_is_on_login_page()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser enters valid &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;locked_out_user&quot;&amp;#27;[0m&amp;#27;[32m and &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;secret_sauce&quot;&amp;#27;[0m        &amp;#27;[90m# StepDefinitions.LoginPOM_StepsDefinition.user_enters_valid_username_and_password(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mClicks on login Button&amp;#27;[0m                                         &amp;#27;[90m# StepDefinitions.LoginPOM_StepsDefinition.click_on_login_button()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mUser should be &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;not_navigated&quot;&amp;#27;[0m                                &amp;#27;[90m# StepDefinitions.LoginPOM_StepsDefinition.user_should_be(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: User should not be navigated to the Home Page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at StepDefinitions.LoginPOM_StepsDefinition.user_should_be(LoginPOM_StepsDefinition.java:79)
+	at âœ½.User should be &quot;not_navigated&quot;(file:///D:/Eclipse/framework/java_framwork/src/test/resources/Features/sauceDemoProducts.feature:19)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mclose the browser&amp;#27;[0m                                             &amp;#27;[90m# StepDefinitions.LoginPOM_StepsDefinition.close_Browser()&amp;#27;[0m
+</system-out>
+    <system-err>Jan 07, 2024 9:47:48 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (120.0.6099.62) detected in PATH at C:\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.200); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+Jan 07, 2024 9:47:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 120
+Jan 07, 2024 9:47:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 120.0.6099.200. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+</system-err>
+  </testcase>
+  <testcase classname="TestRunner.CucumberTestRunner" name="runScenario" time="7.227"/>
+  <testcase classname="TestRunner.CucumberTestRunner" name="runScenario" time="7.016"/>
+  <testcase classname="TestRunner.CucumberTestRunner" name="runScenario" time="6.97"/>
+  <testcase classname="TestRunner.CucumberTestRunner" name="runScenario" time="54.048"/>
+</testsuite>

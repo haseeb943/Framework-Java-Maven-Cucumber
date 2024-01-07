@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-07T09:47:39 PKT" name="TestRunner.CucumberTestRunner" finished-at="2024-01-07T09:49:07 PKT" duration-ms="88649">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-07T09:47:39 PKT" name="Command line test" finished-at="2024-01-07T09:49:07 PKT" duration-ms="88649">
+      <class name="TestRunner.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" started-at="2024-01-07T09:47:39 PKT" name="setUpClass" finished-at="2024-01-07T09:47:39 PKT" duration-ms="509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74431832]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" started-at="2024-01-07T09:47:39 PKT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-07T09:47:44 PKT" duration-ms="5135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login is successful with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page Automation of saucedemo App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" started-at="2024-01-07T09:47:44 PKT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-07T09:47:47 PKT" duration-ms="2776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login is successful with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page Automation of saucedemo App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" started-at="2024-01-07T09:47:47 PKT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-07T09:47:50 PKT" duration-ms="3048" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login is unsuccessful with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page Automation of saucedemo App"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User should not be navigated to the Home Page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User should not be navigated to the Home Page expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at StepDefinitions.LoginPOM_StepsDefinition.user_should_be(LoginPOM_StepsDefinition.java:79)
+at ✽.User should be "not_navigated"(file:///D:/Eclipse/framework/java_framwork/src/test/resources/Features/sauceDemoProducts.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" started-at="2024-01-07T09:47:50 PKT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-07T09:47:57 PKT" duration-ms="7229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort products on the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page Automation of saucedemo App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" started-at="2024-01-07T09:47:57 PKT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-07T09:48:04 PKT" duration-ms="7015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort products on the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page Automation of saucedemo App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" started-at="2024-01-07T09:48:04 PKT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-07T09:48:11 PKT" duration-ms="6970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort products on the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page Automation of saucedemo App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" started-at="2024-01-07T09:48:11 PKT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-07T09:49:05 PKT" duration-ms="54048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Product to the cart - Checkout - Logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page Automation of saucedemo App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.CucumberTestRunner@29647f75]" started-at="2024-01-07T09:49:05 PKT" name="tearDownClass" finished-at="2024-01-07T09:49:07 PKT" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.CucumberTestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestRunner.CucumberTestRunner -->
+</testng-results>

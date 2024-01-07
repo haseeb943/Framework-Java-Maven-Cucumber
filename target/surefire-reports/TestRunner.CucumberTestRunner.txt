@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.CucumberTestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 89.485 sec <<< FAILURE!
+runScenario(TestRunner.CucumberTestRunner)  Time elapsed: 3.051 sec  <<< FAILURE!
+java.lang.AssertionError: User should not be navigated to the Home Page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at StepDefinitions.LoginPOM_StepsDefinition.user_should_be(LoginPOM_StepsDefinition.java:79)
+	at ?.User should be "not_navigated"(file:///D:/Eclipse/framework/java_framwork/src/test/resources/Features/sauceDemoProducts.feature:19)
+
