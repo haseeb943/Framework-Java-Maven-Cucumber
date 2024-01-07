@@ -19,4 +19,11 @@ Java 11
 Selenium 4  
 Cucumber 7  
 Maven 3  
-Extent Report  5
+Extent Report  5  
+
+# For Cloning
+clone repo: **https://github.com/haseeb943/Framework-Java-Maven-Cucumber.git**  
+
+# Here is sample Extend Report ScreenShot
+![image](https://github.com/haseeb943/Framework-Java-Maven-Cucumber/assets/62321504/03bd7403-9f68-42c5-b2b5-1aaa8e7c478c)  
+
